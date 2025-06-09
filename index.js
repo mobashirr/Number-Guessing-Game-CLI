@@ -176,8 +176,9 @@ async function ShowGameRules() {
     const Attempts = AttemptsForCurrentLevel()
     console.log(`
     ${chalk.bgBlue.black("Game Rules:")}
-    ${chalk.green('1.Choose a number from 1 - 100')}
-    ${chalk.green(`2. you have ${Attempts} attempts only to get the number right`)}
+    I'm thinking of a number between 1 and 100.
+    ${chalk.green('1.Try to guess a number between 1 - 100 (inclusive)')}
+    ${chalk.green(`2. You have ${Attempts} attempts only to get the number right`)}
     `);
 }
 
